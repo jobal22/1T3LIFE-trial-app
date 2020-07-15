@@ -1,0 +1,74 @@
+.App {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  position: relative;
+  height: 100%;
+  min-height: 95vh;
+  padding-bottom: 80px;
+  min-width: 373px;
+  border: 1px solid black;
+}
+
+.App__nav {
+  padding-top: 15px;
+  padding-bottom: 280px;
+  background-color: white;
+  /* font-family: 'Shadows Into Light Two', cursive; */
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  min-width: 373px;
+}
+
+.logo {
+  width: 250px;
+  position: absolute; 
+  left: 50%;
+  transform: translate(-50%);
+  padding-top: 6px;
+  display: inline-block; 
+  text-align: center;
+}
+
+.App__div {
+  border: 1px solid black;
+  margin-top: 280px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.trialDL {
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.DL {
+  text-decoration: none;
+  color: black;
+}
+
+.DLTitle{
+  font-weight: bolder;
+}
+
+.App__footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 40px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  /* font-family: 'Shadows Into Light Two', cursive; */
+}
