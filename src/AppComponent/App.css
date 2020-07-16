@@ -10,15 +10,20 @@
   min-height: 95vh;
   padding-bottom: 80px;
   min-width: 373px;
-  border: 1px solid black;
+  border: 1px solid #E0CDCA;
+  /* background-image: url('../images/MtH.JPG');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; */
 }
 
 .App__nav {
-  padding-top: 15px;
-  padding-bottom: 280px;
+  padding-top: 1px;
+  padding-bottom: 250px;
   background-color: white;
   /* font-family: 'Shadows Into Light Two', cursive; */
-  border: 1px solid black;
+  border: 1px solid #E0CDCA;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,31 +37,13 @@
   position: absolute; 
   left: 50%;
   transform: translate(-50%);
-  padding-top: 6px;
+  padding-top: 1px;
   display: inline-block; 
   text-align: center;
 }
 
-.App__div {
-  border: 1px solid black;
-  margin-top: 280px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.trialDL {
-  border: 1px solid black;
-  padding-bottom: 20px;
-}
-
-.DL {
-  text-decoration: none;
-  color: black;
-}
-
-.DLTitle{
-  font-weight: bolder;
+.Menu {
+  margin-bottom: 100px;
 }
 
 .App__footer {
@@ -64,7 +51,7 @@
   width: 100%;
   bottom: 0;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid #E0CDCA;
   margin-top: 40px;
   padding-top: 3px;
   padding-bottom: 1px;
