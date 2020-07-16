@@ -13,17 +13,18 @@
   position: absolute;
   left: 5%;
   right: 5%;
-  top: 25%;
+  top: 35%;
   bottom: 25%;
   margin: auto;
   background: white;
   border: 2px solid #E0CDCA;
-  border-radius: 7px;
-
+  border-radius: 10px;
+  min-width: 330px;
+  min-height: 450px;
 }
 
 .BigLogo {
-  width: 70%;
+  width: 60%;
   height: auto;
   position: absolute; 
   left: 50%;
@@ -34,7 +35,7 @@
 }
 
 .MainPU {
-  margin-top: 250px;
+  margin-top: 210px;
   margin-bottom: 30px;
   font-size: 14px;
   /* padding: 10px; */
@@ -55,4 +56,20 @@
   border-radius: 7px;
   background-color: white;
   font-size: 20px;
+}
+
+@media screen and (min-width: 400px) {
+  .popup_inner {
+    min-width: 330px;
+    max-width: 400px;
+    height: 500px;
+  }
+  
+  .BigLogo {
+    width: 250px;
+  }
+  
+  .MainPU {
+    margin-top: 250px;
+  }  
 }

@@ -13,18 +13,14 @@ export default class Menu extends Component {
     const pdf = require('../Files/GoodNews.pdf')
     return (
       <div className='Menu__div'>
-          {/* <header className='App__div'>
-          <p>1T3 Life: Aiming for the glory of God through the grace of the gospel by practicing living a 1 Timothy 3 life in the home, in the church and in the world.</p>
-          <p>Resources: All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
-        </header> */}
         <div className='Menu'>
           {files.map(f=>
           <div className='trialDL'>
-            <a className='DLI'href={MYPDF} download='GCFile.pdf'>
-              <img className='DLImg' src={f.image} alt={f.image}/>
+            <a className='DLI'href={f.content} download={f.name}>
+              <img className='DLImg' src={f.logo} alt={f.image}/>
             </a>
-            <Link className='DLTitle' to='/goodnews'><p>{f.name}</p></Link>
-            <a className='DL'href= {f.content} download='GCFile.pdf'>(Download PDF)</a>
+            <Link className='DLTitle' to={`/${f.id}`}><p>{f.name}</p></Link>
+            <a className='DL'href= {f.content} download={f.name}>(Download PDF)</a>
           </div>)}
         </div>
       </div>

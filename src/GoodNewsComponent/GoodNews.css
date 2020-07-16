@@ -6,3 +6,27 @@
   margin-right: auto;
   width: 625px;
 }
+
+.PDImgDL {
+  margin-top: 150px;
+}
+
+.PDImg {
+  border: 2px solid #E0CDCA;
+}
+
+.goodnews {
+  width: 100%;
+}
+
+.topImg{
+  margin-top: 150px;
+}
+
+.bottomImg {
+  margin-bottom: 100px;
+}
+
+.PDDL {
+  color: black;
+}

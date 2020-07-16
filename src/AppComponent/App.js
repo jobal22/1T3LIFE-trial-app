@@ -25,7 +25,7 @@ export default class App extends Component {
     return (
       <Switch>
         <Route exact path='/' component={Menu}/>
-        <Route exact path='/goodnews' component={GoodNews}/>
+        <Route exact path='/:pdfId' component={GoodNews}/>
       </Switch>
     )
   }
@@ -39,6 +39,7 @@ export default class App extends Component {
           <Link className="navLink" to={"/"}>
             <img className='logo img' src={logo} alt='Logo'/>
           </Link>
+          <hr></hr>
         </nav>
         <main className='main'>
           {this.renderRoutes()}
