@@ -4,11 +4,22 @@ import logo from '../images/logo.png';
 import MYPDF from '../Files/GCFile.pdf';
 import Menu from '../MenuComponent/Menu';
 import GoodNews from '../GoodNewsComponent/GoodNews';
-
+import Popup from '../PopupComponent/Popup';
 import STORE from '../store.js'
 import './App.css';
 
 export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      showPopup: true
+    };
+  }
+  togglePopup() {
+    this.setState({
+      showPopup: !this.state.showPopup
+    });
+  }
 
   renderRoutes() {
     return (
@@ -31,6 +42,14 @@ export default class App extends Component {
         </nav>
         <main className='main'>
           {this.renderRoutes()}
+          {/* <button className='trial1' onClick={this.togglePopup.bind(this)}>show popup</button> */}
+          {this.state.showPopup ? 
+          <Popup
+            text='Close Me'
+            closePopup={this.togglePopup.bind(this)}
+          />
+          : null
+        }
         </main>
         <footer className='App__footer'>
           <p className='footerText'>To God be the glory!</p>

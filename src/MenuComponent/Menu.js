@@ -13,10 +13,10 @@ export default class Menu extends Component {
     const pdf = require('../Files/GoodNews.pdf')
     return (
       <div className='Menu__div'>
-          <header className='App__div'>
+          {/* <header className='App__div'>
           <p>1T3 Life: Aiming for the glory of God through the grace of the gospel by practicing living a 1 Timothy 3 life in the home, in the church and in the world.</p>
           <p>Resources: All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
-        </header>
+        </header> */}
         <div className='Menu'>
           {files.map(f=>
           <div className='trialDL'>
