@@ -17,7 +17,7 @@
   bottom: 25%;
   margin: auto;
   background: white;
-  border: 2px solid #E0CDCA;
+  border: 2px solid #6E6D6B;
   border-radius: 10px;
   min-width: 330px;
   min-height: 450px;
@@ -50,7 +50,7 @@
 }
 
 .ClosePU {
-  border: 2px solid #E0CDCA;
+  border: 2px solid #6E6D6B;
   border-radius: 7px;
   background-color: white;
   font-size: 25px;
