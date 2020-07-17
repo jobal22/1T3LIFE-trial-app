@@ -10,7 +10,7 @@ const GIlogo = require('./images/GILogo.png');
 const DAlogo = require('./images/DALogo.png');
 const Plogo = require('./images/1PLogo.png');
 const GCElogo = require('./images/GCELogo.png');
-const ALlogo = require('./images/ALLogo.png');
+const ALlogo = require('./images/ALLogo1.png');
 const Slogo = require('./images/SLogo.png');
 const ARlogo = require('./images/ARLogo.png');
 
