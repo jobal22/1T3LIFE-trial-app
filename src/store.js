@@ -1,4 +1,3 @@
-const goodnews = require('./Files/GoodNews.pdf');
 const GNLogo = require('./images/GNLogo2.png');
 const Slogo = require('./images/SLogo1.png');
 const CLlogo = require('./images/CLLogo1.png');
@@ -13,7 +12,13 @@ const ARlogo = require('./images/ARLogo1.png');
 const goodnews1 = require('./images/GoodNews1.jpg');
 const goodnews2 = require('./images/GoodNews2.jpg');
 const goodnews3 = require('./images/GoodNews3.jpg');
-
+const growinginstructions1 = require('./images/GrowingInstructions1.jpg');
+const growinginstructions2 = require('./images/GrowingInstructions2.jpg');
+const growinginstructions3 = require('./images/GrowingInstructions3.jpg');
+const christianlife1 = require('./images/ChristianLife1.jpg');
+const goodnewspdf = require('./Files/GoodNews.pdf');
+const growinginstructionspdf = require('./Files/GrowingInstructions.pdf');
+const christianlifepdf = require('./Files/ChristianLife.pdf');
 
 
 export default {
@@ -21,7 +26,7 @@ export default {
     {
       "id": "1",
       "name": "The Good News",
-      "content": goodnews,
+      "content": goodnewspdf,
       "images": [goodnews1, goodnews2, goodnews3],
       "logo": GNLogo
     },
@@ -35,15 +40,15 @@ export default {
     {
       "id": "3",
       "name": "The Christian Life",
-      "content": 'N/A',
-      "images": 'N/A',
+      "content": christianlifepdf,
+      "images": [christianlife1],
       "logo": CLlogo
     },
     {
       "id": "4",
       "name": "Growing Instructions",
-      "content": 'N/A',
-      "images": 'N/A',
+      "content": growinginstructionspdf,
+      "images": [growinginstructions1, growinginstructions2, growinginstructions3],
       "logo": GIlogo
     },
     {
