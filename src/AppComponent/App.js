@@ -42,7 +42,6 @@ export default class App extends Component {
           <Link className="navLink" to={"/"}>
             <h1 className='logoTitle headtitle'>1T3 Life</h1>
           </Link>
-
           <hr className='hrHead'></hr>
         </nav>
         </div>
@@ -57,8 +56,8 @@ export default class App extends Component {
         }
         </main>
         <footer className='App__footer'>
-          <p className='footerText'>To God be the glory!</p>
-          <p className='footerText1'>All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
+          <p className='footerText'>To God be the glory!<br></br>
+          All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
         </footer>
       </div>
     )

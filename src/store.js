@@ -1,18 +1,19 @@
 const goodnews = require('./Files/GoodNews.pdf');
-const GNLogo = require('./images/GNLogo.png');
+const GNLogo = require('./images/GNLogo2.png');
+const Slogo = require('./images/SLogo1.png');
+const CLlogo = require('./images/CLLogo1.png');
+const GIlogo = require('./images/GILogo1.png');
+const ALlogo = require('./images/ALLogo3.png');
+const DAlogo = require('./images/DALogo1.png');
+const GCTlogo = require('./images/GCTLogo1.png');
+const GCElogo = require('./images/GCSLogo.png');
+const Plogo = require('./images/1PLogo1.png');
+const RTlogo = require('./images/RTLogo3.png');
+const ARlogo = require('./images/ARLogo1.png');
 const goodnews1 = require('./images/GoodNews1.jpg');
 const goodnews2 = require('./images/GoodNews2.jpg');
 const goodnews3 = require('./images/GoodNews3.jpg');
-const RTlogo = require('./images/RTLogo2.png');
-const CLlogo = require('./images/CLLogo.png');
-const GCTlogo = require('./images/GCTLogo.png');
-const GIlogo = require('./images/GILogo.png');
-const DAlogo = require('./images/DALogo.png');
-const Plogo = require('./images/1PLogo.png');
-const GCElogo = require('./images/GCELogo.png');
-const ALlogo = require('./images/ALLogo1.png');
-const Slogo = require('./images/SLogo.png');
-const ARlogo = require('./images/ARLogo.png');
+
 
 
 export default {

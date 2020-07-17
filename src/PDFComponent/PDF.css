@@ -1,6 +1,7 @@
 .PDFComp {
   background-color: #EEEDE9;
   margin-top: 115px;
+  padding-bottom: 20px;
 }
 
 .PDImgDL {
@@ -8,6 +9,18 @@
   padding-left: 50px;
   padding-right: 50px;
   font-family: 'Open Sans', sans-serif;
+}
+
+/* .imgBorder {
+  padding-bottom: 80px;
+  background-color: #EEEDE9;
+
+} */
+
+.PDImg {
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 .imgWidth {
