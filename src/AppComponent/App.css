@@ -13,10 +13,11 @@
   /* background-color: #EEEDE9; */
 
   /* border: 1px solid #E0CDCA; */
+  background-color: #EEEDE9;
   background-image: url('../images/MtH.JPG');
-  background-color: #cccccc;
   background-position: right;
   background-repeat: no-repeat;
+  /* background-size: auto; */
   position: relative;
 }
 
@@ -79,11 +80,9 @@
   margin-left: auto;
   margin-right: auto;
   border: none;
-  margin-top: 110px;
+  margin-top: 1px;
   margin-bottom: 0px;
   background-color: #EEEDE9;
-  /* animation: backOutRight;
-  animation-duration: 4s; */
 }
 
 .hrFoot {
@@ -102,10 +101,21 @@
   width: 100px;
   position: absolute; 
   left: 50%;
-  transform: translate(-50%);
+  /* transform: translate(-50%); */
+  transform: translate(-130%);
   padding-top: 1px;
   display: inline-block; 
   text-align: center;
+}
+
+.logoTitle {
+  text-decoration: none;
+  display: inline-block; 
+  left: 50%;
+  transform: translate(40%);
+  color: black;
+  font-size: 35px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .Menu {
@@ -133,6 +143,7 @@
   border-top-width: 1px;
   box-shadow: 0 -4px 6px -1px rgba(0,0,0,.1), 0 -2px 4px -1px rgba(0,0,0,.06);
   /* font-family: 'Shadows Into Light Two', cursive; */
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footerText1 {

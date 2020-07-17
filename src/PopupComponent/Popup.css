@@ -44,7 +44,7 @@
   /* border: 2px solid #E0CDCA; */
   margin-left: auto;
   margin-right: auto;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 .PUP {
@@ -55,7 +55,8 @@
   border: 2px solid #E0CDCA;
   border-radius: 7px;
   background-color: white;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (min-width: 400px) {

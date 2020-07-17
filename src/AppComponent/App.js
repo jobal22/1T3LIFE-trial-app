@@ -3,7 +3,7 @@ import { Route, Link, Switch } from 'react-router-dom';
 import logo from '../images/logo.png';
 import MYPDF from '../Files/GCFile.pdf';
 import Menu from '../MenuComponent/Menu';
-import GoodNews from '../GoodNewsComponent/GoodNews';
+import GoodNews from '../PDFComponent/PDF';
 import Popup from '../PopupComponent/Popup';
 import STORE from '../store.js';
 import "animate.css/animate.min.css";
@@ -39,8 +39,12 @@ export default class App extends Component {
         <div className='AppNavDiv'>
         <nav className="App__nav header-w is-scrolling">
           <Link className="navLink" to={"/"}>
-            <img className='logo img' src={logo} alt='Logo'/>
+            <img className='logo img headtitl' src={logo} alt='Logo'/>
           </Link>
+          <Link className="navLink" to={"/"}>
+            <h1 className='logoTitle headtitle'>1T3 Life</h1>
+          </Link>
+
           <hr className='hrHead'></hr>
           {/* <div className='navBorder'></div> */}
         </nav>

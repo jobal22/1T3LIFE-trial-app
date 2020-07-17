@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import STORE from '../store'
-import './GoodNews.css'
+import './PDF.css'
 
 
 export default class GoodNews extends Component {
@@ -29,7 +29,7 @@ export default class GoodNews extends Component {
         )}
         {fileImage.map(i=>
         <div className='PDImg'>
-          <img className='imgWidth' src={i} alt='Good News 1'/>
+          <img className='imgWidth' src={i} alt={i}/>
         </div>)}
     </div>
     )
