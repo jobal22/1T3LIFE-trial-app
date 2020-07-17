@@ -5,7 +5,8 @@ import MYPDF from '../Files/GCFile.pdf';
 import Menu from '../MenuComponent/Menu';
 import GoodNews from '../GoodNewsComponent/GoodNews';
 import Popup from '../PopupComponent/Popup';
-import STORE from '../store.js'
+import STORE from '../store.js';
+import "animate.css/animate.min.css";
 import './App.css';
 
 export default class App extends Component {
@@ -35,12 +36,15 @@ export default class App extends Component {
     console.log('look here', files)
     return (
       <div className='App'>
-        <nav className="App__nav">
+        <div className='AppNavDiv'>
+        <nav className="App__nav header-w is-scrolling">
           <Link className="navLink" to={"/"}>
             <img className='logo img' src={logo} alt='Logo'/>
           </Link>
-          <hr></hr>
+          <hr className='hrHead'></hr>
+          {/* <div className='navBorder'></div> */}
         </nav>
+        </div>
         <main className='main'>
           {this.renderRoutes()}
           {/* <button className='trial1' onClick={this.togglePopup.bind(this)}>show popup</button> */}
@@ -53,6 +57,7 @@ export default class App extends Component {
         }
         </main>
         <footer className='App__footer'>
+          {/* <hr className='hrFoot'></hr> */}
           <p className='footerText'>To God be the glory!</p>
           <p className='footerText1'>All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
         </footer>

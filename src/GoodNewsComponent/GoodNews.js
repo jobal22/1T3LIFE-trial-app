@@ -21,7 +21,7 @@ export default class GoodNews extends Component {
     const fileImage = get1DArray(fileImages)
 
     return (
-      <div>
+      <div className='PDFComp'>
         {file.map(f=>
         <div className='PDImgDL'>
           <a className='PDDL'href= {f.content} download={f.name}><h1>Click to Download PDF</h1></a>
@@ -29,7 +29,7 @@ export default class GoodNews extends Component {
         )}
         {fileImage.map(i=>
         <div className='PDImg'>
-          <img className='goodnews Pimg topImg' src={i} alt='Good News 1'/>
+          <img className='imgWidth' src={i} alt='Good News 1'/>
         </div>)}
     </div>
     )

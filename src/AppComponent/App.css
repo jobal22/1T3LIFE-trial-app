@@ -10,12 +10,14 @@
   min-height: 95vh;
   padding-bottom: 80px;
   min-width: 373px;
+  /* background-color: #EEEDE9; */
+
   /* border: 1px solid #E0CDCA; */
-  /* background-image: url('../images/MtH.JPG');
+  background-image: url('../images/MtH.JPG');
   background-color: #cccccc;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  position: relative; */
+  position: relative;
 }
 
 .App:after {
@@ -34,15 +36,65 @@
   right: 0;
   z-index: 10;
   min-width: 373px;
+  /* border-style: solid; */
+  margin-bottom: 2.5rem;
+  border-bottom-width: 1px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
 }
 
-hr {
+/* .AppNavDiv {
+  padding-top: 120px;
+  background-color: transparent;
+} */
+
+/* .navBorder{
+  margin-top: 1rem;
+  border-color: black;
+  border-style: solid;
+  border-bottom-width: 2px;
+} */
+
+/* .App__nav:not(.is-scrolling) .App__nav--rule .navBorder {
+  border-color: black;
+} */
+
+/* .fixed {
+  opacity: 1;
+  display: block;
+  transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+  z-index: 40;
+  width: 100vw;
+  top: 0;
+  position: fixed;
+  opacity: 0;
+  max-width: 100%;
+  margin-bottom: 8rem;
+}
+
+:after, :before {--transition-duraction: 250ms;} */
+
+
+.hrHead {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin-top: 110px;
+  margin-bottom: 0px;
+  background-color: #EEEDE9;
+  /* animation: backOutRight;
+  animation-duration: 4s; */
+}
+
+.hrFoot {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid black;
-  margin-top: 110px;
-  /* margin-bottom: 40px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #EEEDE9;
+
 }
 
 
@@ -57,7 +109,8 @@ hr {
 }
 
 .Menu {
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* .trial1 {
@@ -68,12 +121,22 @@ hr {
   position: absolute;
   width: 100%;
   bottom: 0;
-  background-color: white;
-  border: 1px solid #BFBFBF;
+  /* background-color: red; */
+  background-color: #EEEDE9;
   margin-top: 40px;
   padding-top: 3px;
   padding-bottom: 1px;
   font-size: 15px;
   font-weight: bold;
+  /* border: none; */
+  /* margin-top: 2.5rem; */
+  border-top-width: 1px;
+  box-shadow: 0 -4px 6px -1px rgba(0,0,0,.1), 0 -2px 4px -1px rgba(0,0,0,.06);
   /* font-family: 'Shadows Into Light Two', cursive; */
+}
+
+.footerText1 {
+  font-size: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
