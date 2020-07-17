@@ -10,14 +10,10 @@
   min-height: 95vh;
   padding-bottom: 80px;
   min-width: 373px;
-  /* background-color: #EEEDE9; */
-
-  /* border: 1px solid #E0CDCA; */
   background-color: #EEEDE9;
   background-image: url('../images/MtH.JPG');
   background-position: right;
   background-repeat: no-repeat;
-  /* background-size: auto; */
   position: relative;
 }
 
@@ -27,53 +23,17 @@
 
 .App__nav {
   padding-top: 5px;
-  /* padding-bottom: 105px; */
   background-color: #EEEDE9;
-  /* font-family: 'Shadows Into Light Two', cursive; */
-  /* border: 1px solid #BFBFBF; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
   min-width: 373px;
-  /* border-style: solid; */
   margin-bottom: 2.5rem;
   border-bottom-width: 1px;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
 }
-
-/* .AppNavDiv {
-  padding-top: 120px;
-  background-color: transparent;
-} */
-
-/* .navBorder{
-  margin-top: 1rem;
-  border-color: black;
-  border-style: solid;
-  border-bottom-width: 2px;
-} */
-
-/* .App__nav:not(.is-scrolling) .App__nav--rule .navBorder {
-  border-color: black;
-} */
-
-/* .fixed {
-  opacity: 1;
-  display: block;
-  transition-timing-function: cubic-bezier(.455,.03,.515,.955);
-  z-index: 40;
-  width: 100vw;
-  top: 0;
-  position: fixed;
-  opacity: 0;
-  max-width: 100%;
-  margin-bottom: 8rem;
-}
-
-:after, :before {--transition-duraction: 250ms;} */
-
 
 .hrHead {
   width: 85%;
@@ -93,15 +53,12 @@
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #EEEDE9;
-
 }
-
 
 .logo {
   width: 100px;
   position: absolute; 
   left: 50%;
-  /* transform: translate(-50%); */
   transform: translate(-130%);
   padding-top: 1px;
   display: inline-block; 
@@ -123,26 +80,18 @@
   margin-bottom: 50px;
 }
 
-/* .trial1 {
-  margin-top: 900px;
-} */
-
 .App__footer {
   position: absolute;
   width: 100%;
   bottom: 0;
-  /* background-color: red; */
   background-color: #EEEDE9;
   margin-top: 40px;
   padding-top: 3px;
   padding-bottom: 1px;
   font-size: 15px;
   font-weight: bold;
-  /* border: none; */
-  /* margin-top: 2.5rem; */
   border-top-width: 1px;
   box-shadow: 0 -4px 6px -1px rgba(0,0,0,.1), 0 -2px 4px -1px rgba(0,0,0,.06);
-  /* font-family: 'Shadows Into Light Two', cursive; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -157,5 +106,4 @@
     margin-top: 10px;
     margin-bottom: 110px;
   }
-  
 }

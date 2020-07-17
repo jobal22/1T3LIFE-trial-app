@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link, Switch } from 'react-router-dom';
 import logo from '../images/logo.png';
-import MYPDF from '../Files/GCFile.pdf';
 import Menu from '../MenuComponent/Menu';
 import GoodNews from '../PDFComponent/PDF';
 import Popup from '../PopupComponent/Popup';
@@ -33,7 +32,6 @@ export default class App extends Component {
 
   render() {
     const {files} = STORE;
-    console.log('look here', files)
     return (
       <div className='App'>
         <div className='AppNavDiv'>
@@ -46,12 +44,10 @@ export default class App extends Component {
           </Link>
 
           <hr className='hrHead'></hr>
-          {/* <div className='navBorder'></div> */}
         </nav>
         </div>
         <main className='main'>
           {this.renderRoutes()}
-          {/* <button className='trial1' onClick={this.togglePopup.bind(this)}>show popup</button> */}
           {this.state.showPopup ? 
           <Popup
             text='Close Me'
@@ -61,7 +57,6 @@ export default class App extends Component {
         }
         </main>
         <footer className='App__footer'>
-          {/* <hr className='hrFoot'></hr> */}
           <p className='footerText'>To God be the glory!</p>
           <p className='footerText1'>All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
         </footer>
