@@ -1,7 +1,7 @@
 .PDFComp {
   background-color: #EEEDE9;
   margin-top: 115px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .PDImgDL {
@@ -20,7 +20,7 @@
 .PDImg {
   margin-left: 20px;
   margin-right: 20px;
-
+  padding-bottom: 10px;
 }
 
 .imgWidth {
