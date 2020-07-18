@@ -15,10 +15,13 @@ const goodnews3 = require('./images/GoodNews3.jpg');
 const growinginstructions1 = require('./images/GrowingInstructions1.jpg');
 const growinginstructions2 = require('./images/GrowingInstructions2.jpg');
 const growinginstructions3 = require('./images/GrowingInstructions3.jpg');
+const greatcommissionsimplified = require('./images/GreatCommissionSimplified.jpg');
 const christianlife1 = require('./images/ChristianLife1.jpg');
 const goodnewspdf = require('./Files/GoodNews.pdf');
 const growinginstructionspdf = require('./Files/GrowingInstructions.pdf');
 const christianlifepdf = require('./Files/ChristianLife.pdf');
+const greatcommissionsimplifiedpdf = require('./Files/GreatCommissionSimplified.pdf');
+
 
 
 export default {
@@ -75,8 +78,8 @@ export default {
     {
       "id": "8",
       "name": "The Greact Commission - Simply Explained",
-      "content": 'N/A',
-      "images": 'N/A',
+      "content": greatcommissionsimplifiedpdf,
+      "images": [greatcommissionsimplified],
       "logo": GCElogo
     },
     {
