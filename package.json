@@ -1,5 +1,6 @@
 {
-  "name": "1t3life-trial-app",
+  "name": "1t3life-app",
+  "homepage": "http://1t3life.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
