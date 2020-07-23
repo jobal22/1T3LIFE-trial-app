@@ -37,7 +37,7 @@ export default class App extends Component {
         <div className='AppNavDiv'>
         <nav className="App__nav header-w is-scrolling">
           <Link className="navLink" to={"/"}>
-            <img className='logo img headtitl' src={logo} alt='Logo'/>
+            <img className='logo img headtitle' src={logo} alt='Logo'/>
           </Link>
           <Link className="navLink" to={"/"}>
             <h1 className='logoTitle headtitle'>1T3 LIFE</h1>

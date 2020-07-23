@@ -13,7 +13,7 @@
   background-color: #EEEDE9;
   background-image: url('../images/MtH.JPG');
   background-position: right;
-  /* background-size: auto; */
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
