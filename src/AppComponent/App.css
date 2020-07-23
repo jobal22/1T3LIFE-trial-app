@@ -113,6 +113,14 @@
 }
 
 @media screen and (min-width: 768px) {
+  .logo {
+    left: 50%;
+    transform: translate(-165%);
+  }
+  .logoTitle {
+    left: 50%;
+    transform: translate(20%);
+  }
   .Menu {
     margin-top: 10px;
     margin-bottom: 110px;
