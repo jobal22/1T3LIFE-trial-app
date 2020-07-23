@@ -61,7 +61,7 @@
   width: 100px;
   position: absolute; 
   left: 50%;
-  transform: translate(-130%);
+  transform: translate(-145%);
   padding-top: 3px;
   display: inline-block; 
   text-align: center;
@@ -71,7 +71,7 @@
   text-decoration: none;
   display: inline-block; 
   left: 50%;
-  transform: translate(40%);
+  transform: translate(30%);
   color: white;
   font-size: 45px;
   /* font-family: 'Libre Baskerville', serif; */
