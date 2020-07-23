@@ -4,7 +4,6 @@ import logo from '../images/logo.png';
 import Menu from '../MenuComponent/Menu';
 import GoodNews from '../PDFComponent/PDF';
 import Popup from '../PopupComponent/Popup';
-import STORE from '../store.js';
 import "animate.css/animate.min.css";
 import './App.css';
 
@@ -31,7 +30,6 @@ export default class App extends Component {
   }
 
   render() {
-    const {files} = STORE;
     return (
       <div className='App'>
         <div className='AppNavDiv'>

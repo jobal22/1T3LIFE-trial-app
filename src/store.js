@@ -64,7 +64,6 @@ const resolvingconflict1 = require('./images/ResolvingConflict-1.jpg');
 const resolvingconflict2 = require('./images/ResolvingConflict-2.jpg');
 const resolvingconflict3 = require('./images/ResolvingConflict-3.jpg');
 
-
 const goodnewspdf = require('./Files/GoodNews.pdf');
 const growinginstructionspdf = require('./Files/GrowingInstructions.pdf');
 const christianlifepdf = require('./Files/ChristianLife.pdf');
@@ -87,9 +86,9 @@ export default {
     },
     {
       "id": "2",
-      "name": "A way to share The Good News",
+      "name": "A Way to Share The Good News",
       "content": 'N/A',
-      "images": 'N/A',
+      "images": ['N/A'],
       "logo": Slogo
     },
     {
@@ -110,7 +109,7 @@ export default {
       "id": "5",
       "name": "A Discipleship Atlas",
       "content": 'N/A',
-      "images": 'N/A',
+      "images": ['N/A'],
       "logo": DAlogo
     },
     {
