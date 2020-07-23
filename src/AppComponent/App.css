@@ -13,6 +13,7 @@
   background-color: #EEEDE9;
   background-image: url('../images/MtH.JPG');
   background-position: right;
+  /* background-size: auto; */
   background-repeat: no-repeat;
   position: relative;
 }
@@ -74,7 +75,8 @@
   color: white;
   font-size: 35px;
   /* font-family: 'Libre Baskerville', serif; */
-  font-family: 'Saira Stencil One', cursive;
+  /* font-family: 'Saira Stencil One', cursive; */
+  font-family: 'Oswald', sans-serif;
   letter-spacing: 3px;
 }
 

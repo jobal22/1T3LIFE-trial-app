@@ -40,7 +40,7 @@ export default class App extends Component {
             <img className='logo img headtitl' src={logo} alt='Logo'/>
           </Link>
           <Link className="navLink" to={"/"}>
-            <h1 className='logoTitle headtitle'>1T3 Life</h1>
+            <h1 className='logoTitle headtitle'>1T3 LIFE</h1>
           </Link>
           <hr className='hrHead'></hr>
         </nav>

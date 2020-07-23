@@ -2,13 +2,15 @@ const GNLogo = require('./images/GNLogo2.png');
 const Slogo = require('./images/SLogo1.png');
 const CLlogo = require('./images/CLLogo1.png');
 const GIlogo = require('./images/GILogo1.png');
-const ALlogo = require('./images/ALLogo3.png');
-const DAlogo = require('./images/DALogo1.png');
+// const ALlogo = require('./images/ALLogo3.png');
+const DAlogo = require('./images/DALogo2.png');
 const GCTlogo = require('./images/GCTLogo1.png');
 const GCElogo = require('./images/GCSLogo.png');
-const Plogo = require('./images/1PLogo1.png');
+const Plogo = require('./images/1PLogo2.png');
 const RTlogo = require('./images/RTLogo3.png');
-const ARlogo = require('./images/ARLogo1.png');
+const ARlogo = require('./images/ARLogo2.png');
+const RClogo = require('./images/RCLogo.png');
+const RDlogo = require('./images/RDLogo.png');
 const goodnews1 = require('./images/GoodNews1.jpg');
 const goodnews2 = require('./images/GoodNews2.jpg');
 const goodnews3 = require('./images/GoodNews3.jpg');
@@ -56,17 +58,17 @@ export default {
     },
     {
       "id": "5",
-      "name": "An Atlas for Life",
-      "content": 'N/A',
-      "images": 'N/A',
-      "logo": ALlogo
-    },
-    {
-      "id": "6",
       "name": "A Discipleship Atlas",
       "content": 'N/A',
       "images": 'N/A',
       "logo": DAlogo
+    },
+    {
+      "id": "6",
+      "name": "1T3 Plan",
+      "content": 'N/A',
+      "images": 'N/A',
+      "logo": Plogo
     },
     {
       "id": "7",
@@ -84,10 +86,10 @@ export default {
     },
     {
       "id": "9",
-      "name": "1T3 Plan",
+      "name": "Resolving Conflict",
       "content": 'N/A',
       "images": 'N/A',
-      "logo": Plogo
+      "logo": RClogo
     },
     {
       "id": "10",
@@ -98,11 +100,17 @@ export default {
     },
     {
       "id": "11",
+      "name": "Reasonable Design",
+      "content": 'N/A',
+      "images": 'N/A',
+      "logo": RDlogo
+    },
+    {
+      "id": "12",
       "name": "Additional Resources",
       "content": 'N/A',
       "images": 'N/A',
       "logo": ARlogo
     },
-
   ]
 } 
