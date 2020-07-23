@@ -14,7 +14,7 @@ export default class PopUp extends Component {
             <p className='PUP'><b>1T3 Life</b>: Aiming for the glory of God through the grace of the gospel by practicing living a 1 Timothy 3 life in the home, in the church and in the world.</p>
             <p className='PUP'>Resources: All the handouts on 1T3Life.org are free and are intended for encouragement and educational purposes.</p>
           </main>
-            <button className='ClosePU' onClick={this.props.closePopup}>Close</button>
+            <button className='ClosePU' onClick={this.props.closePopup}>Next</button>
         </div>
       </div>
     );

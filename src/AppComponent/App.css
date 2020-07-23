@@ -73,11 +73,11 @@
   left: 50%;
   transform: translate(40%);
   color: white;
-  font-size: 35px;
+  font-size: 45px;
   /* font-family: 'Libre Baskerville', serif; */
   /* font-family: 'Saira Stencil One', cursive; */
   font-family: 'Oswald', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 
 .Menu {
