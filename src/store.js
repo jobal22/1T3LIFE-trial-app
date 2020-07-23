@@ -128,7 +128,7 @@ export default {
     },
     {
       "id": "8",
-      "name": "The Greact Commission - Simply Explained",
+      "name": "The Great Commission - Simply Explained",
       "content": greatcommissionsimplifiedpdf,
       "images": [greatcommissionsimplified],
       "logo": GCElogo
