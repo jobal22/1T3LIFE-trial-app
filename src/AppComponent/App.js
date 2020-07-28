@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link, Switch } from 'react-router-dom';
-import logo from '../images/logo.png';
+import logo from '../images/logo3.png';
 import Menu from '../MenuComponent/Menu';
 import PDF from '../PDFComponent/PDF';
 import Popup from '../PopupComponent/Popup';
