@@ -3,14 +3,15 @@ const Slogo = require('./images/SLogo1.png');
 const CLlogo = require('./images/CLLogo1.png');
 const GIlogo = require('./images/GILogo1.png');
 // const ALlogo = require('./images/ALLogo3.png');
-const DAlogo = require('./images/DALogo2.png');
+const DAlogo = require('./images/DALogo3.png');
 const GCTlogo = require('./images/GCTLogo1.png');
 const GCElogo = require('./images/GCSLogo.png');
-const Plogo = require('./images/1PLogo2.png');
+const Plogo = require('./images/1PLogo3.png');
 const RTlogo = require('./images/RTLogo3.png');
 const ARlogo = require('./images/ARLogo2.png');
 const RClogo = require('./images/RCLogo.png');
 const RDlogo = require('./images/RDLogo.png');
+const GLlogo = require('./images/GLLogo.png');
 
 const goodnews1 = require('./images/GoodNews1.jpg');
 const goodnews2 = require('./images/GoodNews2.jpg');
@@ -88,7 +89,7 @@ export default {
       "id": "2",
       "name": "A Way to Share The Good News",
       "content": 'N/A',
-      "images": ['N/A'],
+      "images": [],
       "logo": Slogo
     },
     {
@@ -107,17 +108,17 @@ export default {
     },
     {
       "id": "5",
-      "name": "A Discipleship Atlas",
+      "name": "A Guide for Life",
       "content": 'N/A',
-      "images": ['N/A'],
-      "logo": DAlogo
+      "images": [],
+      "logo": GLlogo
     },
     {
       "id": "6",
-      "name": "1T3 Plan",
-      "content": tplanpdf,
-      "images": [tplan1, tplan2, tplan3],
-      "logo": Plogo
+      "name": "A Discipleship Atlas",
+      "content": 'N/A',
+      "images": [],
+      "logo": DAlogo
     },
     {
       "id": "7",
@@ -135,10 +136,10 @@ export default {
     },
     {
       "id": "9",
-      "name": "Resolving Conflict",
-      "content": resolvingconflictpdf,
-      "images": [resolvingconflict1, resolvingconflict2, resolvingconflict3],
-      "logo": RClogo
+      "name": "1T3 Plan",
+      "content": tplanpdf,
+      "images": [tplan1, tplan2, tplan3],
+      "logo": Plogo
     },
     {
       "id": "10",

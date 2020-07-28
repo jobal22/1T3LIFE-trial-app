@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link, Switch } from 'react-router-dom';
 import logo from '../images/logo.png';
 import Menu from '../MenuComponent/Menu';
-import GoodNews from '../PDFComponent/PDF';
+import PDF from '../PDFComponent/PDF';
 import Popup from '../PopupComponent/Popup';
 import "animate.css/animate.min.css";
 import './App.css';
@@ -24,7 +24,7 @@ export default class App extends Component {
     return (
       <Switch>
         <Route exact path='/' component={Menu}/>
-        <Route exact path='/:pdfId' component={GoodNews}/>
+        <Route exact path='/:pdfId' component={PDF}/>
       </Switch>
     )
   }

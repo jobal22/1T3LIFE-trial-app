@@ -9,6 +9,7 @@ export default class GoodNews extends Component {
     const pdfId = this.props.match.params.pdfId;
     const file = files.filter(f => f.id === pdfId)
     const fileImages = file.map(i => i.images)
+    //Break Up Arrays
     function get1DArray(arr){
       var result = new Array([]);
       for (var x = 0; x < arr.length; x++){
@@ -19,7 +20,20 @@ export default class GoodNews extends Component {
       return result
     }
     const fileImage = get1DArray(fileImages)
-
+    // const Images = fileImage.map(i=>
+    //   <div className='PDImg'>
+    //     <img className='imgWidth' src={i} alt={i}/>
+    //   </div>)
+    // //SEARCH FOR EMPTY ARRAYS
+    // function findEmptyArray(array) {
+    //   if(array.length < 1) {
+    //     return <p className='noContent'>Content Coming Soon!</p>
+    //   } else {
+    //     return array
+    //   }
+    // }
+    // const Image = findEmptyArray(Images)
+    // console.log(findEmptyArray(Image))
     return (
       <div className='PDFComp'>
         {file.map(f=>
@@ -28,9 +42,10 @@ export default class GoodNews extends Component {
         </div>
         )}
         {fileImage.map(i=>
-        <div className='PDImg'>
+        <div className='PDImg' key={i.id}>
           <img className='imgWidth' src={i} alt={i}/>
         </div>)}
+        {/* {Image} */}
     </div>
     )
   }

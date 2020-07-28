@@ -2,6 +2,7 @@
   background-color: #EEEDE9;
   margin-top: 115px;
   padding-bottom: 60px;
+
 }
 
 .PDImgDL {
@@ -30,4 +31,15 @@
 
 .PDDL {
   color: black;
+}
+
+@media screen and (min-width: 1000px) {
+  /* .PDImg {
+    margin-left: 200px;
+    margin-right: 200px;
+  } */
+  .imgWidth {
+    width: 50%;
+  }
+  
 }
