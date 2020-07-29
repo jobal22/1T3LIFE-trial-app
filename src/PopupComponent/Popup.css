@@ -29,14 +29,14 @@
   position: absolute; 
   left: 50%;
   transform: translate(-50%);
-  padding-top: 1px;
+  padding-top: 15px;
   display: inline-block; 
   text-align: center;
 }
 
 .MainPU {
-  margin-top: 215px;
-  margin-bottom: 30px;
+  margin-top: 225px;
+  margin-bottom: 20px;
   font-size: 14px;
   padding-left: 20px;
   padding-right: 20px;
@@ -69,6 +69,6 @@
   }
   
   .MainPU {
-    margin-top: 270px;
+    margin-top: 280px;
   }  
 }
