@@ -153,29 +153,6 @@ const sharinggoodnews16 = require('./images/SharingTheGoodNews-16.jpg');
 const sharinggoodnews17 = require('./images/SharingTheGoodNews-17.jpg');
 const sharinggoodnews18 = require('./images/SharingTheGoodNews-18.jpg');
 const sharinggoodnews19 = require('./images/SharingTheGoodNews-19.jpg');
-const sharinggoodnews20 = require('./images/SharingTheGoodNews-20.jpg');
-const sharinggoodnews21 = require('./images/SharingTheGoodNews-21.jpg');
-const sharinggoodnews22 = require('./images/SharingTheGoodNews-22.jpg');
-const sharinggoodnews23 = require('./images/SharingTheGoodNews-23.jpg');
-const sharinggoodnews24 = require('./images/SharingTheGoodNews-24.jpg');
-const sharinggoodnews25 = require('./images/SharingTheGoodNews-25.jpg');
-const sharinggoodnews26 = require('./images/SharingTheGoodNews-26.jpg');
-const sharinggoodnews27 = require('./images/SharingTheGoodNews-27.jpg');
-const sharinggoodnews28 = require('./images/SharingTheGoodNews-28.jpg');
-const sharinggoodnews29 = require('./images/SharingTheGoodNews-29.jpg');
-const sharinggoodnews30 = require('./images/SharingTheGoodNews-30.jpg');
-const sharinggoodnews31 = require('./images/SharingTheGoodNews-31.jpg');
-const sharinggoodnews32 = require('./images/SharingTheGoodNews-32.jpg');
-const sharinggoodnews33 = require('./images/SharingTheGoodNews-33.jpg');
-const sharinggoodnews34 = require('./images/SharingTheGoodNews-34.jpg');
-const sharinggoodnews35 = require('./images/SharingTheGoodNews-35.jpg');
-const sharinggoodnews36 = require('./images/SharingTheGoodNews-36.jpg');
-const sharinggoodnews37 = require('./images/SharingTheGoodNews-37.jpg');
-const sharinggoodnews38 = require('./images/SharingTheGoodNews-38.jpg');
-const sharinggoodnews39 = require('./images/SharingTheGoodNews-39.jpg');
-const sharinggoodnews40 = require('./images/SharingTheGoodNews-40.jpg');
-const sharinggoodnews41 = require('./images/SharingTheGoodNews-41.jpg');
-
 
 const goodnewspdf = require('./Files/GoodNews.pdf');
 const growinginstructionspdf = require('./Files/GrowingInstructions.pdf');
@@ -204,7 +181,7 @@ export default {
       "id": "2",
       "name": "Sharing The Good News",
       "content": sharingthegoodnewspdf,
-      "images": [sharinggoodnews1, sharinggoodnews2, sharinggoodnews3, sharinggoodnews4, sharinggoodnews5, sharinggoodnews6, sharinggoodnews7, sharinggoodnews8, sharinggoodnews9, sharinggoodnews10, sharinggoodnews11, sharinggoodnews12, sharinggoodnews13, sharinggoodnews14, sharinggoodnews15, sharinggoodnews16, sharinggoodnews17, sharinggoodnews18, sharinggoodnews19, sharinggoodnews20, sharinggoodnews21, sharinggoodnews22, sharinggoodnews23, sharinggoodnews24, sharinggoodnews25, sharinggoodnews26, sharinggoodnews27, sharinggoodnews28, sharinggoodnews29, sharinggoodnews30, sharinggoodnews31, sharinggoodnews32, sharinggoodnews33, sharinggoodnews34, sharinggoodnews35, sharinggoodnews36, sharinggoodnews37, sharinggoodnews38, sharinggoodnews39, sharinggoodnews40, sharinggoodnews41],
+      "images": [sharinggoodnews1, sharinggoodnews2, sharinggoodnews3, sharinggoodnews4, sharinggoodnews5, sharinggoodnews6, sharinggoodnews7, sharinggoodnews8, sharinggoodnews9, sharinggoodnews10, sharinggoodnews11, sharinggoodnews12, sharinggoodnews13, sharinggoodnews14, sharinggoodnews15, sharinggoodnews16, sharinggoodnews17, sharinggoodnews18, sharinggoodnews19],
       "logo": Slogo
     },
     {
