@@ -41,7 +41,7 @@ export default class GoodNews extends Component {
         </div>
         )}
         {fileImage.map(i=>
-        <div className='PDImg' key={i.id}>
+        <div className='PDImg' key={i}>
           <img className='imgWidth' src={i} alt={i}/>
         </div>)}
         {/* {Image} */}
