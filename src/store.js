@@ -21,6 +21,14 @@ const growinginstructions2 = require('./images/GrowingInstructions2.jpg');
 const growinginstructions3 = require('./images/GrowingInstructions3.jpg');
 const greatcommissionsimplified = require('./images/GreatCommissionSimplified1.jpg');
 const christianlife1 = require('./images/ChristianLife1.jpg');
+const christianlife2 = require('./images/ChristianLife2.jpg');
+const christianlife3 = require('./images/ChristianLife3.jpg');
+const christianlife4 = require('./images/ChristianLife4.jpg');
+const christianlife5 = require('./images/ChristianLife5.jpg');
+const christianlife6 = require('./images/ChristianLife6.jpg');
+const christianlife7 = require('./images/ChristianLife7.jpg');
+const christianlife8 = require('./images/ChristianLife8.jpg');
+const christianlife9 = require('./images/ChristianLife9.jpg');
 const tplan1 = require('./images/1T3Plan1.jpg');
 const tplan2 = require('./images/1T3Plan2.jpg');
 const tplan3 = require('./images/1T3Plan3.jpg');
@@ -352,7 +360,7 @@ export default {
       "id": "3",
       "name": "The Christian Life",
       "content": christianlifepdf,
-      "images": [christianlife1],
+      "images": [christianlife1, christianlife2, christianlife3, christianlife4, christianlife5, christianlife6, christianlife7, christianlife8, christianlife9],
       "logo": CLlogo
     },
     {
